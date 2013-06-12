@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Closing Costs FNBD</string>
+    <string name="action_settings">Settings</string>
+    <string name="purchasePrice">Purchase Price</string>
+    <string name="dollarSign">$</string>
+    <string name="downPayment">Down Payment</string>
+    <string name="sellerCosts">Seller Costs</string>
+    <string name="calculateButton">Calculate</string>    
+    <string name="lowerCostButtonText">Lower Costs</string>
+    <string name="lowerRateButtonText">Lower Rate</string>
+   
+     <string name="resultsText">Results</string>
+    
+    
+    
+     <string-array name="inputTypes">
+        <item>Dollars</item>
+        <item>Percent</item>       
+    </string-array>
+</resources>

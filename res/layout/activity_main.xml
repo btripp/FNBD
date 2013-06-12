@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/purchasePriceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/purchasePrice"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+        
+        <TextView
+        android:id="@+id/dollarSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dollarSign"
+        android:textAppearance="?android:attr/textAppearanceMedium" />  
+            
+         <EditText
+    android:id="@+id/purchasePrice"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+    android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/downPaymentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/downPayment"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+     <LinearLayout       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"> 
+            
+         <EditText
+             android:layout_weight="1"
+    android:id="@+id/downPayment"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+    android:inputType="numberDecimal" />
+         
+          <Spinner
+              android:layout_weight="1"
+    android:id="@+id/inputTypeSpinner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+    android:spinnerMode="dropdown"    />
+    </LinearLayout>
+    
+     
+     
+     
+     
+     <TextView
+        android:id="@+id/sellerCostsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sellerCosts"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+     <LinearLayout       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"> 
+            
+         <EditText
+             android:layout_weight="1"
+    android:id="@+id/sellerCostsEditText"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+    android:inputType="numberDecimal"
+    />
+         
+          <Spinner
+              android:id="@+id/inputTypeSpinnerSeller"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:spinnerMode="dropdown"
+               />
+
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <Button
+             android:id="@+id/lowerCostButton"
+             android:layout_weight="1"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+              android:text="@string/lowerCostButtonText"
+              android:onClick="calculateLowerCost"
+             />
+
+         <Button
+             android:id="@+id/lowerRateButton"             
+             android:layout_weight="1"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+              android:text="@string/lowerRateButtonText"
+              android:onClick="calculateLowerRate"
+              />
+
+     </LinearLayout>
+
+</LinearLayout>

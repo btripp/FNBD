@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+   
+      
+       
+        
+         <TextView
+            android:id="@+id/thirtyYearText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 year - 3.99% @ 4.25% APR"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+        
+              <TextView
+                  android:id="@+id/thirtyMonthlyPaymentText"
+                  android:layout_weight="2"
+                  android:gravity="right"
+                  android:layout_width="0dip"
+                  android:layout_height="wrap_content"
+                  android:text="Payment: "
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+             
+               <TextView
+            android:id="@+id/thirtyMonthlyPaymentValue"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="$945.56"
+            android:textAppearance="?android:attr/textAppearanceLarge" />              
+             
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+        
+              <TextView
+                  android:id="@+id/thirtyMonthlyClosingText"
+                  android:layout_weight="2"
+                  android:gravity="right"
+                  android:layout_width="0dip"
+                  android:layout_height="wrap_content"
+                  android:text="Closing:"
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+             
+               <TextView
+            android:id="@+id/thirtyMonthlyClosingValue"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="$3008.56"
+            android:textAppearance="?android:attr/textAppearanceLarge" />              
+             
+        </LinearLayout>
+         
+        <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"
+    android:layout_margin="5dp"
+    />
+        
+         <TextView
+            android:id="@+id/twentyYearText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 year - 4.34% @ 4.40% APR"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+        
+              <TextView
+                  android:id="@+id/twentyMonthlyPaymentText"
+                  android:layout_weight="2"
+                  android:gravity="right"
+                  android:layout_width="0dip"
+                  android:layout_height="wrap_content"
+                  android:text="Payment: "
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+             
+               <TextView
+            android:id="@+id/twentyMonthlyPaymentValue"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="$1045.56"
+            android:textAppearance="?android:attr/textAppearanceLarge" />              
+             
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+        
+              <TextView
+                  android:id="@+id/twentyMonthlyClosingText"
+                  android:layout_weight="2"
+                  android:gravity="right"
+                  android:layout_width="0dip"
+                  android:layout_height="wrap_content"
+                  android:text="Closing:"
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+             
+               <TextView
+            android:id="@+id/twentyMonthlyClosingValue"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="$4058.56"
+            android:textAppearance="?android:attr/textAppearanceLarge" />              
+             
+        </LinearLayout>
+        
+         
+         
+         
+         
+         
+         
+           <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"
+    android:layout_margin="5dp"
+    />
+        
+         <TextView
+            android:id="@+id/fifteenYearText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 year - 5.34% @ 5.40% APR"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+        
+              <TextView
+                  android:id="@+id/fifteenMonthlyPaymentText"
+                  android:layout_weight="2"
+                  android:gravity="right"
+                  android:layout_width="0dip"
+                  android:layout_height="wrap_content"
+                  android:text="Payment: "
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+             
+               <TextView
+            android:id="@+id/fifteenMonthlyPaymentValue"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="$1945.56"
+            android:textAppearance="?android:attr/textAppearanceLarge" />              
+             
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+        
+              <TextView
+                  android:id="@+id/fifteenMonthlyClosingText"
+                  android:layout_weight="2"
+                  android:gravity="right"
+                  android:layout_width="0dip"
+                  android:layout_height="wrap_content"
+                  android:text="Closing:"
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+             
+               <TextView
+            android:id="@+id/fifteenMonthlyClosingValue"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="$5598.56"
+            android:textAppearance="?android:attr/textAppearanceLarge" />              
+             
+        </LinearLayout>
+        
+         <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"
+    android:layout_margin="5dp"
+    />
+        
+         <TextView
+            android:id="@+id/tenYearText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 year - 6.34% @ 6.40% APR"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+        
+              <TextView
+                  android:id="@+id/tenMonthlyPaymentText"
+                  android:layout_weight="2"
+                  android:gravity="right"
+                  android:layout_width="0dip"
+                  android:layout_height="wrap_content"
+                  android:text="Payment: "
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+             
+               <TextView
+            android:id="@+id/tenMonthlyPaymentValue"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="$2945.56"
+            android:textAppearance="?android:attr/textAppearanceLarge" />              
+             
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+        
+              <TextView
+                  android:id="@+id/tenMonthlyClosingText"
+                  android:layout_weight="2"
+                  android:gravity="right"
+                  android:layout_width="0dip"
+                  android:layout_height="wrap_content"
+                  android:text="Closing:"
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+             
+               <TextView
+            android:id="@+id/tenMonthlyClosingValue"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="$9347.56"
+            android:textAppearance="?android:attr/textAppearanceLarge" />              
+             
+        </LinearLayout>
+         
+         
+ </LinearLayout>
+
+
